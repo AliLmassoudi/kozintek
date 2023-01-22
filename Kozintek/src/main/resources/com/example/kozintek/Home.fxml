@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="812.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kozintek.HomeController">
+   <children>
+      <AnchorPane fx:id="HeaderAnchorPane" prefHeight="100.0" prefWidth="375.0" />
+      <AnchorPane layoutY="714.0" prefHeight="100.0" prefWidth="375.0">
+         <children>
+            <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#4c57d2" height="75.0" layoutY="26.0" stroke="TRANSPARENT" strokeType="INSIDE" width="375.0" />
+            <Rectangle fill="#4c57d2" height="50.0" layoutY="51.0" stroke="TRANSPARENT" strokeType="INSIDE" width="375.0" />
+         </children></AnchorPane>
+      <ScrollPane fx:id="scrollPane" layoutY="100.0" prefHeight="640.0" prefWidth="375.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1611.0" prefWidth="375.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

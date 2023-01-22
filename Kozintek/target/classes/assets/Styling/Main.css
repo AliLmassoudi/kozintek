@@ -1,0 +1,20 @@
+.TextField {
+    -fx-background-color : "White" ;
+    -fx-background-radius : 7 ;
+    -fx-border-color : none ;
+    -fx-font-family : "Poppins" ;
+    -fx-font-size : 15px ;
+}
+
+.Button1 {
+    -fx-background-color : "White" ;
+    -fx-background-radius : 7 ;
+    -fx-text-fill : "#4C57D2" ;
+    -fx-font-family : "Poppins" ;
+}
+
+.TransparentButton {
+    -fx-font-family : "Poppins"
+    -fx-font-size : 3px ;
+    -fx-background-color : none ;
+}
